@@ -78,7 +78,7 @@ Add-Content $PROFILE.CurrentUserAllHosts '. $env:LOCALAPPDATA\proxyctl.ps1'
 . $PROFILE.CurrentUserAllHosts
 ```
 
-Usage
+## Usage
 1. Configure proxy (once)
 Mixed port (recommended)
 ```sh
@@ -115,6 +115,7 @@ When enabled, `proxyctl` sets:
 - `http_proxy`, `https_proxy`, `all_proxy`
 - `HTTP_PROXY`, `HTTPS_PROXY`, `ALL_PROXY`
 - `no_proxy`, `NO_PROXY`
+
 This ensures compatibility with tools like:
 - `curl`
 - `git`
